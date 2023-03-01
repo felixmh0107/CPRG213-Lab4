@@ -1,0 +1,125 @@
+.first-flex {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(173, 216, 230);
+}
+
+.first-flex div {
+    margin: 10px;
+    height: 50px;
+    width: 50%;
+    background-color: rgb(128, 128, 128);
+}
+
+.first-flex #firstA {
+    margin-right: 0px;
+}
+
+.first-flex #firstB {
+    margin-left: 10px;
+}
+
+.second-flex {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(173, 216, 230);
+}
+
+.second-flex div {
+    height: 50px;
+    margin: 15px;
+    background-color: rgb(128, 128, 128);
+    flex-grow: 3;
+}
+
+.seconed-flex div:nth-child(1) {
+    margin-right: 15px;
+}
+
+.second-flex div:nth-child(2) {
+    margin-left: 0px;
+    margin-right: 15px;
+}
+
+.second-flex div:nth-child(3) {
+    margin-left: 0px;
+}
+
+.third-flex {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(173,216,230);
+}
+
+.third-flex div {
+    height: 50px;
+    background-color: rgb(128, 128, 128);
+    margin: 12px;
+    border: 2px solid black;
+}
+
+.third-flex #thirdA {
+    flex-grow: 2;
+    margin-right: 12px;
+}
+
+.third-flex #thirdB {
+    flex-grow: 1;
+    margin-left: 0px;
+    margin-right: 12px;
+}
+
+.third-flex #thirdC {
+    flex-grow: 1;
+    margin-left: 0px;
+}
+
+.forth-flex {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(173,216,230);
+}
+
+.forth-flex div {
+    height: 50px;
+    background-color: rgb(128, 128, 128);
+    margin: 12px;
+    border: 2px solid black;
+    flex-grow: 4;
+}
+
+.forth-flex div:nth-child(1) {
+    margin-right: 0px;
+}
+
+.forth-flex div:nth-child(2) {
+    margin-left: 12px;
+    margin-right: 0px;
+}
+
+.forth-flex div:nth-child(3) {
+    margin-left: 12px;
+    margin-right: 0px;
+}
+
+.forth-flex div:nth-child(4) {
+    margin-left: 12px;
+}
+
+.fifth-flex {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(173,216,230);
+}
+
+.fifth-flex div {
+    height: 50px;
+    margin: 12px;
+    background-color: rgb(128, 128, 128);
+    margin-top: 0px;
+    border: 2px solid black;
+}
+
+.fifth-flex #fifthA {
+    width: 100%;
+}
